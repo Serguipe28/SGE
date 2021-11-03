@@ -1,0 +1,5 @@
+#Ignorar la carpeata bloque1
+Bloque1
+
+#Ignorar las carpetas .idea
+*.idea
