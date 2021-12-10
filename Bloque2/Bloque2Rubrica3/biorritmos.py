@@ -3,7 +3,7 @@ import datetime
 
 dia = int(input("Introduce el día en el que naciste: "))
 mes = int(input("Introduce el mes en el que naciste: "))
-año = int(input("Introduce el año en el que naciste (2000): "))
+año = int(input("Introduce el año en el que naciste (formato XXXX): "))
 
 dias_de_vida = (datetime.datetime.now() - datetime.datetime(año, mes, dia)).dias_de_vida
 
